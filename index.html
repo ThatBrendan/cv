@@ -1,50 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      ,
+      user-scalable="no"
+    />
+    <title>Brendan's Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="onepiece">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <span class="nameTag">BRENDAN UGO-EMERIBE</span>
+      <ul class="nav-links">
+        <li><a href="#page1">HOME</a></li>
+        <li><a href="#page2">PROJECTS</a></li>
+        <li><a href="#page3">CONTACT ME</a></li>
+      </ul>
+    </nav>
 
-<head>
-  <meta charset="utf-8">
-  <title>Brendan Ugo</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico">
-</head>
+    <section id="page1" class="container">
+      <h1>Front-End Web Developer</h1>
+      <p>
+        I'm a self-motivated Front-End web developer based in Manchester, UK. I
+        am open to remote opportunites in the UK.
+      </p>
+      <button>Hire Me</button>
+    </section>
+    <hr />
+    <section id="page2" class="featuredprojects">
+      <div class="featuredheading">
+        <span>Featured Projects</span>
+        <h3>BlackJack</h3>
+      </div>
+      <!-- FEATURED PROJECT CONTAINER  -->
+      <div class="projectcontainer">
+        <div class="box1">
+          <div class="blackimg">
+            <img src="images/blackjack.png" alt="BlackJack" />
+          </div>
 
-<body>
-  <div class="nav-bar">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Hire Me</a></li>
-      <li><a href="#">Contact Me</a></li>
-      <li><a class="btn" href="#">Resume</a></li>
-    </ul>
-  </div>
-  <div class="top-container">
-    <h1>Brendan Ugo-Emeribe.</h1>
-    <h3>Front-end web developer</h3>
-    <p>I am a Manchester-based front-end web developer who builds things for the web</p>
-    <img class="man-photo" src="images/man.png" alt="face-photo">
-  </div>
-  <hr>
-   <div class="middle-container">
-     <img class="code-img" src="images/code.png" alt="">
-    <h3>Skills</h3>
-    <p>HTML, CSS, Javascript, Bootstrap, React, Sass, Mongo</p>
-   </div>
-  <hr>
-  <div class="contact-me">
-    <h2>Get in touch</h2>
-    <p>If you love my content, then what are you waiting for? Just go ahead and contact me</p>
-    <a class="btn" href="#">Contact Me</a>
+          <!-- FEATURED PROJECT LETTERING -->
+          <div class="projecttext">
+            <span>
+              Simple BlackJack game made with HTML, CSS and Javascript
+            </span>
+            <a
+              href="https://thatbrendan.github.io/blackjack/"
+              class="blackjacklink"
+              >View project</a
+            >
+          </div>
+        </div>
+      </div>
 
-  </div>
+      <!-- FEATURED PROJECT CONTAINER 2 -->
+      <div class="projectcontainer">
+        <div class="box1">
+          <div class="blackimg">
+            <img src="images/blackjack.png" alt="BlackJack" />
+          </div>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="#">Twitter</a>
-    <a class="footer-link" href="#">Facebok</a>
-    <a class="footer-link" href="#">LinkedIn</a>
+          <!-- FEATURED PROJECT LETTERING -->
+          <div class="projecttext">
+            <span>
+              Simple BlackJack game made with HTML, CSS and Javascript
+            </span>
+            <a
+              href="https://thatbrendan.github.io/blackjack/"
+              class="blackjacklink"
+              >View project</a
+            >
+          </div>
+        </div>
+      </div>
 
+      <!-- FEATURED PROJECT CONTAINER 3 -->
+      <div class="projectcontainer">
+        <div class="box1">
+          <div class="blackimg">
+            <img src="images/blackjack.png" alt="BlackJack" />
+          </div>
 
-  </div>
-</body>
-
+          <!-- FEATURED PROJECT LETTERING -->
+          <div class="projecttext">
+            <span>
+              Simple BlackJack game made with HTML, CSS and Javascript
+            </span>
+            <a
+              href="https://thatbrendan.github.io/blackjack/"
+              class="blackjacklink"
+              >View project</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="stack">
+      <p>
+        Stack: I am familiar with technologies such as, <br />
+        Javascript, HTML, CSS, React.
+      </p>
+    </section>
+    <hr />
+    <footer id="page3" class="contactMe">
+      <p>ugobrendan@gmail.com</p>
+      <button>GITHUB</button>
+      <button>LINKED IN</button>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
