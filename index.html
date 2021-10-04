@@ -10,118 +10,118 @@
       user-scalable="no"
     />
     <title>Brendan's Portfolio website</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- fontawesome link -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav>
-      <div class="onepiece">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+    <!--start of header section-->
+    <header>
+      <div class="header1">
+        <a href="#" id="Home">
+          <span>Brendan Ugo-Emeribe</span>
+        </a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+          <a href="#Home">Home</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact Me</a>
+        </nav>
       </div>
-      <span class="nameTag">BRENDAN UGO-EMERIBE</span>
-      <ul class="nav-links">
-        <li><a href="#page1">HOME</a></li>
-        <li><a href="#page2">PROJECTS</a></li>
-        <li><a href="#page3">CONTACT ME</a></li>
-      </ul>
-    </nav>
+    </header>
 
-    <section id="page1" class="container">
-      <h1>Front-End Web Developer</h1>
-      <p>
-        I'm a self-motivated Front-End web developer based in Manchester, UK. I
-        am open to remote opportunites in the UK.
-      </p>
-      <button>Hire Me</button>
+    <!--end of header section-->
+
+    <!--start of home section-->
+    <section class="home" id="Home">
+      <div class="content">
+        <span>FrontEnd Web Developer</span>
+        <h3>
+          I am a self-motivated FrontEnd web developer based in Manchester, UK.
+          I am open to opportunities.
+        </h3>
+        <a
+          href="images/Brendan Ugo-Emeribe(PDF).pdf"
+          class="btn"
+          target="_blank"
+          >View Resume</a
+        >
+      </div>
     </section>
-    <hr />
-    <section id="page2" class="featuredprojects">
-      <div class="featuredheading">
-        <span>Featured Projects</span>
-        <h3>BlackJack</h3>
-      </div>
-      <!-- FEATURED PROJECT CONTAINER  -->
-      <div class="projectcontainer">
-        <div class="box1">
-          <div class="blackimg">
-            <img src="images/blackjack.png" alt="BlackJack" />
-          </div>
+    <!--end of home section-->
 
-          <!-- FEATURED PROJECT LETTERING -->
-          <div class="projecttext">
-            <span>
-              Simple BlackJack game made with HTML, CSS and Javascript
-            </span>
-            <a
-              href="https://thatbrendan.github.io/blackjack/"
-              class="blackjacklink"
-              >View project</a
-            >
-          </div>
+    <!--start of Portfolio section-->
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">Portfolio</h1>
+      <div class="box-container">
+        <div class="box">
+          <h3>A trainers website made with HTML, CSS and Javascript</h3>
+          <a href="#" class="btn">view project</a>
         </div>
-      </div>
-
-      <!-- FEATURED PROJECT CONTAINER 2 -->
-      <div class="projectcontainer">
-        <div class="box1">
-          <div class="blackimg">
-            <img src="images/blackjack.png" alt="BlackJack" />
-          </div>
-
-          <!-- FEATURED PROJECT LETTERING -->
-          <div class="projecttext">
-            <span>
-              Simple BlackJack game made with HTML, CSS and Javascript
-            </span>
-            <a
-              href="https://thatbrendan.github.io/blackjack/"
-              class="blackjacklink"
-              >View project</a
-            >
-          </div>
+        <div class="box">
+          <h3>
+            Chrome plugin to bookmark web pages made with HTML, CSS and
+            Javascript
+          </h3>
+          <a href="#" class="btn">view project</a>
         </div>
-      </div>
-
-      <!-- FEATURED PROJECT CONTAINER 3 -->
-      <div class="projectcontainer">
-        <div class="box1">
-          <div class="blackimg">
-            <img src="images/blackjack.png" alt="BlackJack" />
-          </div>
-
-          <!-- FEATURED PROJECT LETTERING -->
-          <div class="projecttext">
-            <span>
-              Simple BlackJack game made with HTML, CSS and Javascript
-            </span>
-            <a
-              href="https://thatbrendan.github.io/blackjack/"
-              class="blackjacklink"
-              >View project</a
-            >
-          </div>
+        <div class="box">
+          <h3>Blackjack game made with HTML, CSS and Javascript</h3>
+          <a href="#" class="btn">view project</a>
         </div>
       </div>
     </section>
-    <hr />
-    <section class="stack">
-      <p>
-        Stack: I am familiar with technologies such as, <br />
-        Javascript, HTML, CSS, React.
-      </p>
+    <!--start of Portfolio section-->
+
+    <!--start of tech stack section-->
+    <section class="tech-container">
+      <h1 class="heading">Technologies I use</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/css.png" alt="css" />
+        </div>
+        <div class="box">
+          <img src="images/javascript.png" alt="css" />
+        </div>
+        <div class="box">
+          <img src="images/html.png" alt="css" />
+        </div>
+        <div class="box">
+          <img src="images/react.png" alt="css" />
+        </div>
+      </div>
     </section>
-    <hr />
-    <footer id="page3" class="contactMe">
-      <p>ugobrendan@gmail.com</p>
-      <button>GITHUB</button>
-      <button>LINKED IN</button>
-    </footer>
+    <!--end of tech stack section-->
+
+    <!--start of footer section-->
+    <section class="footer" id="contact">
+      <div class="box-container">
+        <div class="box">
+          <div class="share">
+            <a
+              href="https://github.com/ThatBrendan?tab=repositories"
+              class="btn fab fa-github"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/brendan-ugo-emeribe-25a76410a/"
+              class="btn fab fa-linkedin"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="heading">
+        <a href="#Home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </section>
+    <!--end of footer section-->
+
     <script src="script.js"></script>
   </body>
 </html>
