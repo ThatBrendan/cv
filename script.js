@@ -1,8 +1,8 @@
-const onePiece = document.querySelector(".onepiece");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-links li");
+let menu = document.querySelector("#menu-bar");
+let navbar = document.querySelector(".navbar");
+let header = document.querySelector(".header1");
 
-/*make nav-button work according to CSS attribute*/
-onePiece.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
+menu.addEventListener("click", () => {
+  menu.classList.toggle("fa-times");
+  navbar.classList.toggle("active");
 });
