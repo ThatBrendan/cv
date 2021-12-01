@@ -84,7 +84,7 @@ body {
   justify-content: space-around;
   position: relative;
   flex-wrap: wrap;
-  left: 40rem;
+  left: 35rem;
   height: 40rem;
   width: 60rem;
 }
@@ -101,34 +101,32 @@ body {
   margin: 3rem 0;
 }
 
+.portfolio {
+  margin: 0 1.5rem;
+}
 .portfolio .box-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 1.5rem;
-  padding: 1.5rem;
 }
-
-.portfolio h1 {
-  text-decoration: underline;
-  font-size: 2.5rem;
-}
-
 .portfolio .box-container .box {
-  border-radius: 2rem;
+  padding: 2rem 1.5rem;
+  border: 0.1rem solid rgb(146, 98, 7);
+  border-radius: 0.5rem;
   text-align: center;
-  padding: 3rem;
-  flex: 1 1 35rem;
-  height: 25rem;
+  margin-top: 1.5rem;
 }
 
-.portfolio .box-container .box h3 {
-  font-size: 2rem;
+.portfolio .box-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio .box-container h4 {
+  font-size: 1.5rem;
   color: rgb(79, 91, 102);
-  height: 15rem;
-}
-
-.portfolio .box-container .box .btn {
-  margin: 1.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .tech-container {
@@ -183,7 +181,7 @@ body {
 .footer .heading a {
   font-size: 1.5rem;
   padding: 0.5rem;
-  color: aliceblue;
+  color: rgb(146, 98, 7);
   text-align: center;
   justify-content: center;
 }
@@ -234,7 +232,7 @@ body {
     display: block;
     text-align: center;
     font-size: 2rem;
-    background: rgb(36, 35, 35);
+    background: rgb(146, 98, 7);
     padding: 0.5rem;
     margin: 1rem 0;
   }
@@ -269,15 +267,15 @@ body {
     display: block;
     left: 0%;
   }
-
-  .portfolio .box-container .box {
-    max-width: 100%;
+  .tech-container {
+    width: 100%;
+    margin-top: 1.5rem;
   }
 
   .tech-container .box-container .box {
+    margin-top: 1.5rem;
     display: flex;
     flex: 1 1 10rem;
-    position: relative;
     text-align: center;
   }
 
